@@ -4,9 +4,10 @@ This repository contains the corrected CSEN903 Milestone 1 notebook source and i
 
 ## Kaggle validation
 
-The existing public Kaggle notebook was updated in place to **Version 2** and Kaggle reports the complete execution as successful. The run used the Formula 1 dataset, CPU, and internet disabled. Its final integrated validation passed 33/33 checks. The public Version 2 source was pulled through Kaggle CLI and matches this repository notebook cell-for-cell across all 108 cells; the source SHA-256 is `8eaf48102c291c037e14fcd3913c2bb0624dd4447a9808d2404c5a0893be28e1`.
+The existing public Kaggle notebook was updated in place to **Version 2** and Kaggle reports the complete execution as successful. The run used the Formula 1 dataset, CPU, and internet disabled. Its final integrated validation passed 33/33 checks. The approved local source has SHA-256 `8eaf48102c291c037e14fcd3913c2bb0624dd4447a9808d2404c5a0893be28e1`. The notebook published here matches Kaggle Version 2 cell-for-cell across all 108 cells; Git line-ending normalization can change the published file-level hash.
 
 - [Public Kaggle Version 2](https://www.kaggle.com/code/nourmohameddd18/csen903-ms1)
+
 A separate private checklist-validation run preceded publication; the linked evidence summaries are checked against the completed public Version 2 outputs.
 - Dataset: [Formula 1 World Championship dataset](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)
 - Validation evidence: [`validation_evidence/`](validation_evidence/); the included summaries were checked against the completed public Version 2 outputs.
@@ -39,7 +40,7 @@ The chronological split contains 23,689 training rows (1950–2017), 1,620 valid
 
 The shallow neural network was selected as the primary model by validation PR-AUC, before test evaluation. Its threshold of 0.81 was selected on validation F1. The Random Forest has higher test PR-AUC; test results did not change the validation-based model choice.
 
-Stage 3 now displays a dynamic train-data before/after preprocessing example. For `q3_gap_to_best`, the training set has 21,511 missing raw values; median imputation uses 0.852 and leaves zero missing values. The observed raw range is 0?31.189; after the train-fitted imputer and scaler, the shown training range is about -2.527?88.260. The full per-feature table is in `validation_evidence/stage3_preprocessing_effect_summary.csv`. Stage 5 retrieves the selected Logistic Regression threshold (0.36) from Stage 4 for both preprocessing-order comparisons; their ranking scores are unchanged by the threshold, while threshold-based scores use the corrected value.
+Stage 3 now displays a dynamic train-data before/after preprocessing example. For `q3_gap_to_best`, the training set has 21,511 missing raw values; median imputation uses 0.852 and leaves zero missing values. The observed raw range is 0 to 31.189; after the train-fitted imputer and scaler, the shown training range is about -2.527 to 88.260. The full per-feature table is in `validation_evidence/stage3_preprocessing_effect_summary.csv`. Stage 5 retrieves the selected Logistic Regression threshold (0.36) from Stage 4 for both preprocessing-order comparisons; their ranking scores are unchanged by the threshold, while threshold-based scores use the corrected value.
 
 ## Approved historical corrections
 
