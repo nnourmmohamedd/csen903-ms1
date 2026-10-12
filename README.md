@@ -7,7 +7,7 @@ This repository contains the corrected CSEN903 Milestone 1 notebook source and i
 The existing public Kaggle notebook was updated in place to **Version 2** and Kaggle reports the complete execution as successful. The run used the Formula 1 dataset, CPU, and internet disabled. Its final integrated validation passed 33/33 checks. The public Version 2 source was pulled through Kaggle CLI and matches this repository notebook cell-for-cell across all 108 cells; the source SHA-256 is `8eaf48102c291c037e14fcd3913c2bb0624dd4447a9808d2404c5a0893be28e1`.
 
 - [Public Kaggle Version 2](https://www.kaggle.com/code/nourmohameddd18/csen903-ms1)
-- [Private checklist-validation run](https://www.kaggle.com/code/nourmohameddd18/csen903-ms1-checklist-validation) (owner access required)
+A separate private checklist-validation run preceded publication; the linked evidence summaries are checked against the completed public Version 2 outputs.
 - Dataset: [Formula 1 World Championship dataset](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)
 - Validation evidence: [`validation_evidence/`](validation_evidence/); the included summaries were checked against the completed public Version 2 outputs.
 
