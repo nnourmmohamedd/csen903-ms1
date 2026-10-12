@@ -1,0 +1,13 @@
+check,passed
+inference function defined,True
+same 31 predictor schema,True
+frozen Stage 3 preprocessor used,True
+frozen primary Shallow NN used,True
+threshold matches frozen Stage 4 selection,True
+"complete probability in [0,1]",True
+"partial probability in [0,1]",True
+function accepts legitimate missing values,True
+post-race outcome fields not required,True
+output schema correct,True
+inference CSVs regenerated,True
+inference summary figure regenerated,True

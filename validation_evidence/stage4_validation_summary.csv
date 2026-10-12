@@ -1,0 +1,61 @@
+check,passed
+Stage 1 validation passes,True
+Stage 2 remains 24/24 PASS,True
+Stage 3 remains 77/77 PASS,True
+"Modeling rows remain 26,668",True
+"Train rows remain 23,689",True
+"Validation rows remain 1,620",True
+"Test rows remain 1,359",True
+Raw selected predictors remain 31,True
+Transformed predictors remain 306,True
+All splits have equal transformed feature counts,True
+Six logistic candidates trained,True
+Four RF candidates trained,True
+Three shallow NN candidates trained,True
+Unweighted C=1 logistic baseline retained,True
+Selected models appear in their candidate tables,True
+NN has only one or two hidden layers,True
+NN class weights derive from training labels,True
+Primary model and thresholds frozen on validation before test,True
+Train probabilities finite and bounded,True
+Validation probabilities finite and bounded,True
+Test probabilities finite and bounded,True
+"Train roc_auc is finite and within [0,1]",True
+"Train pr_auc is finite and within [0,1]",True
+"Train f1 is finite and within [0,1]",True
+"Train precision is finite and within [0,1]",True
+"Train recall is finite and within [0,1]",True
+"Train accuracy is finite and within [0,1]",True
+"Validation roc_auc is finite and within [0,1]",True
+"Validation pr_auc is finite and within [0,1]",True
+"Validation f1 is finite and within [0,1]",True
+"Validation precision is finite and within [0,1]",True
+"Validation recall is finite and within [0,1]",True
+"Validation accuracy is finite and within [0,1]",True
+"Test roc_auc is finite and within [0,1]",True
+"Test pr_auc is finite and within [0,1]",True
+"Test f1 is finite and within [0,1]",True
+"Test precision is finite and within [0,1]",True
+"Test recall is finite and within [0,1]",True
+"Test accuracy is finite and within [0,1]",True
+"Each test confusion matrix sums to 1,359",True
+Test confusion negatives reconcile,True
+Test confusion positives reconcile,True
+Plot exists: stage4_validation_roc.png,True
+Plot exists: stage4_validation_pr.png,True
+Plot exists: stage4_test_roc.png,True
+Plot exists: stage4_test_pr.png,True
+Plot exists: stage4_validation_test_metric_comparison.png,True
+Plot exists: stage4_test_confusion_logistic_regression.png,True
+Plot exists: stage4_test_confusion_random_forest.png,True
+Plot exists: stage4_test_confusion_shallow_neural_network.png,True
+Plot exists: stage4_nn_training_loss.png,True
+Plot exists: stage4_nn_training_pr_auc.png,True
+Plot exists: stage4_threshold_selection.png,True
+Logistic model artifact exists,True
+Random Forest artifact exists,True
+Shallow NN artifact exists,True
+Frozen preprocessor artifact exists,True
+Candidate CSVs exist,True
+Selection/threshold/comparison CSVs exist,True
+Final audits and metadata CSVs exist,True

@@ -1,0 +1,12 @@
+check,passed
+frozen Stage 4 primary remains Shallow NN,True
+permutation importance covers 31 raw features,True
+permutation importance uses validation rows,True
+permutation importance plot exists,True
+SHAP method completed,True
+SHAP plot outputs exist,True
+LIME local explanation completed,True
+LIME probability valid,True
+LIME plot and CSV exist,True
+Stage 6 did not use test,True
+causal disclaimer included,True

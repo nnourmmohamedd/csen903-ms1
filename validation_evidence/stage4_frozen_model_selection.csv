@@ -1,0 +1,4 @@
+model,candidate,threshold,validation_pr_auc,validation_roc_auc,validation_f1,primary_model
+Logistic Regression,LR_C0.1_unweighted,0.36000000000000004,0.7236487320774079,0.9374318238193007,0.7192660550458716,False
+Random Forest,RF_4,0.75,0.7322110751827655,0.9409134786363866,0.7272727272727273,False
+Shallow Neural Network,NN_3,0.81,0.7419867314908245,0.9337110854096248,0.7137546468401487,True

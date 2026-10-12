@@ -1,0 +1,25 @@
+check,passed
+Q1 rates within bounds,True
+Q1 podium counts do not exceed starts,True
+Q1 totals reconcile to eligible rows,True
+Q1 rows use front grid only,True
+Q1 and Q2 use corrected driver-race outcomes,True
+Q1 era labels valid,True
+Q2 classified nationality values valid,True
+Q2 unknown nationality remains unknown,True
+Q2 exact-grid overlap exists,True
+Q2 rates within bounds,True
+Q2 standardization weights sum to one,True
+Q2 adjusted rates finite and bounded,True
+Q3 years in scope,True
+Q3 era labels valid,True
+Q3 non-starts excluded from starts,True
+Q3 mechanical retirements do not exceed starts,True
+Q3 rates within bounds,True
+Every observed Q3 status has a classification,True
+Q3 non-mechanical labels excluded from mechanical whitelist,True
+Q3 mechanical classification follows reviewed whitelist and record override,True
+Stage 1 PK constraints pass,True
+Stage 1 FK unmatched count is zero,True
+Stage 1 duplicate-year audit remains complete,True
+All required Stage 2 evidence exists,True

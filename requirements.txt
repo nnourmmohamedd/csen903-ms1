@@ -1,0 +1,13 @@
+# Third-party packages imported by CSEN903_MS1_corrected.ipynb.
+# Versions are intentionally unpinned; use the compatible Kaggle-managed image
+# documented in README.md for the validated execution.
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+shap
+lime
+joblib
+ipython

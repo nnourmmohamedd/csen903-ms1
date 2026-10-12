@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.kaggle/
+kaggle.json
+
+# Data and generated model/output artifacts
+data/
+outputs/
+results/
+*.joblib
+*.keras
+*.h5
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

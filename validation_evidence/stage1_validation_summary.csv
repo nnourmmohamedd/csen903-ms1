@@ -1,0 +1,14 @@
+check,passed
+Raw input DataFrames unchanged,True
+Zero literal sentinels in clean_tables,True
+Date columns have datetime dtype,True
+Duration columns are numeric,True
+PK audit completed for all tables,True
+FK audit completed for all listed relationships,True
+All primary-key constraints passed,True
+All audited foreign keys have zero unmatched rows,True
+Duplicate race years are complete and expected,True
+"Unique (raceId, driverId) modeling grain",True
+Driver-race podium equals any source result podium,True
+17 historical duplicate targets corrected,True
+Grid-selected predictor rows preserved,True

@@ -1,0 +1,34 @@
+check,passed
+Stage 1 validation complete: 13/13 PASS,True
+Stage 1 PK audit complete and passed: 14/14,True
+Stage 1 FK unmatched count is zero,True
+Stage 2 validation complete: 24/24 PASS,True
+Stage 3 validation complete: 77/77 PASS,True
+"Stage 3 modeling rows = 26,668",True
+Stage 3 selected predictors = 31,True
+Stage 3 transformed predictors = 306,True
+Stage 3 chronological split sizes match,True
+Stage 4 validation complete: 60/60 PASS,True
+Stage 4 primary model is the frozen Shallow Neural Network,True
+"frozen primary threshold is in (0, 1)",True
+primary threshold matches Stage 4 selection,True
+Stage 5 uses the same frozen threshold,True
+Stage 6 uses the same frozen primary model,True
+Stage 7 inference outputs use the frozen threshold,True
+Stage 5 validation passes,True
+Stage 5 all six feature groups completed,True
+Stage 5 both preprocessing experiments completed,True
+Stage 5 did not use test data,True
+Stage 5 evidence regenerated,True
+Stage 6 validation passes,True
+Stage 6 permutation importance covers 31 raw predictors,True
+Stage 6 SHAP explanation completed,True
+Stage 6 LIME explanation completed,True
+Stage 6 non-causality disclaimer is present,True
+Stage 6 did not use test data,True
+Stage 6 evidence regenerated,True
+Stage 7 inference function is callable,True
+Stage 7 complete demo probability is valid,True
+Stage 7 partial demo probability is valid and has four missing predictors,True
+Stage 7 validation passes,True
+Stage 7 evidence regenerated,True

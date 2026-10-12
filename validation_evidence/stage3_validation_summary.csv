@@ -1,0 +1,78 @@
+check,passed
+"Modeling table retains 26,668 rows",True
+Modeling grain is unique by race and driver,True
+Six approved feature groups are present,True
+Chronological split sizes match approved counts,True
+Chronological split year ranges match approved windows,True
+All transformed matrices have 306 named features,True
+Selected feature year exists in the modeling table,True
+Selected feature year appears once in the feature groups,True
+Selected feature round exists in the modeling table,True
+Selected feature round appears once in the feature groups,True
+Selected feature circuitId exists in the modeling table,True
+Selected feature circuitId appears once in the feature groups,True
+Selected feature constructorId exists in the modeling table,True
+Selected feature constructorId appears once in the feature groups,True
+Selected feature grid_position exists in the modeling table,True
+Selected feature grid_position appears once in the feature groups,True
+Selected feature grid_known exists in the modeling table,True
+Selected feature grid_known appears once in the feature groups,True
+Selected feature qualifying_position exists in the modeling table,True
+Selected feature qualifying_position appears once in the feature groups,True
+Selected feature qualifying_available exists in the modeling table,True
+Selected feature qualifying_available appears once in the feature groups,True
+Selected feature q1_gap_to_best exists in the modeling table,True
+Selected feature q1_gap_to_best appears once in the feature groups,True
+Selected feature q2_gap_to_best exists in the modeling table,True
+Selected feature q2_gap_to_best appears once in the feature groups,True
+Selected feature q3_gap_to_best exists in the modeling table,True
+Selected feature q3_gap_to_best appears once in the feature groups,True
+Selected feature q1_available exists in the modeling table,True
+Selected feature q1_available appears once in the feature groups,True
+Selected feature reached_q2 exists in the modeling table,True
+Selected feature reached_q2 appears once in the feature groups,True
+Selected feature reached_q3 exists in the modeling table,True
+Selected feature reached_q3 appears once in the feature groups,True
+Selected feature grid_minus_qualifying_position exists in the modeling table,True
+Selected feature grid_minus_qualifying_position appears once in the feature groups,True
+Selected feature driver_prior_starts exists in the modeling table,True
+Selected feature driver_prior_starts appears once in the feature groups,True
+Selected feature driver_prior_podium_rate exists in the modeling table,True
+Selected feature driver_prior_podium_rate appears once in the feature groups,True
+Selected feature driver_last5_podium_rate exists in the modeling table,True
+Selected feature driver_last5_podium_rate appears once in the feature groups,True
+Selected feature driver_last5_avg_finish exists in the modeling table,True
+Selected feature driver_last5_avg_finish appears once in the feature groups,True
+Selected feature driver_has_history exists in the modeling table,True
+Selected feature driver_has_history appears once in the feature groups,True
+Selected feature constructor_prior_races exists in the modeling table,True
+Selected feature constructor_prior_races appears once in the feature groups,True
+Selected feature constructor_prior_podium_rate exists in the modeling table,True
+Selected feature constructor_prior_podium_rate appears once in the feature groups,True
+Selected feature constructor_last5_podium_rate exists in the modeling table,True
+Selected feature constructor_last5_podium_rate appears once in the feature groups,True
+Selected feature constructor_last5_avg_finish exists in the modeling table,True
+Selected feature constructor_last5_avg_finish appears once in the feature groups,True
+Selected feature constructor_has_history exists in the modeling table,True
+Selected feature constructor_has_history appears once in the feature groups,True
+Selected feature driver_prev_standing_position exists in the modeling table,True
+Selected feature driver_prev_standing_position appears once in the feature groups,True
+Selected feature driver_prev_points_vs_leader exists in the modeling table,True
+Selected feature driver_prev_points_vs_leader appears once in the feature groups,True
+Selected feature driver_prev_standing_available exists in the modeling table,True
+Selected feature driver_prev_standing_available appears once in the feature groups,True
+Selected feature constructor_prev_standing_position exists in the modeling table,True
+Selected feature constructor_prev_standing_position appears once in the feature groups,True
+Selected feature constructor_prev_points_vs_leader exists in the modeling table,True
+Selected feature constructor_prev_points_vs_leader appears once in the feature groups,True
+Selected feature constructor_prev_standing_available exists in the modeling table,True
+Selected feature constructor_prev_standing_available appears once in the feature groups,True
+Feature group context is nonempty and mapped correctly,True
+Feature group grid is nonempty and mapped correctly,True
+Feature group qualifying is nonempty and mapped correctly,True
+Feature group driver_form is nonempty and mapped correctly,True
+Feature group constructor_form is nonempty and mapped correctly,True
+Feature group standings is nonempty and mapped correctly,True
+Driver historical podium form uses corrected prior driver-race outcomes only,True
+Constructor history uses constructor-attributed source results,True
+Synthetic shared-drive outcome is not credited to selected constructor,True

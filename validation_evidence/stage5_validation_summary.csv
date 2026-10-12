@@ -1,0 +1,15 @@
+check,passed
+six feature groups ablated,True
+all six approved groups represented,True
+baseline equals frozen Stage 4 validation PR-AUC,True
+all ablations use frozen Stage 4 threshold,True
+ablation preprocessors fit on train only,True
+train/validation row sets unchanged,True
+test data not used in Stage 5,True
+split-order experiment has approved and labeled leaky rows,True
+order experiment 1 evidence saved,True
+two train-only numeric orders compared,True
+ablation CSV and plot saved,True
+preprocessing comparison plots saved,True
+all ablation metrics finite,True
+non-causal interpretation present,True
